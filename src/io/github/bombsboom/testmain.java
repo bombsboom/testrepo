@@ -1,10 +1,12 @@
 package io.github.bombsboom;
 
-public class testmain {
+import org.bukkit.plugin.java.JavaPlugin;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("ah");
+public class testmain extends JavaPlugin{
+
+	@Override
+	public void onEnable() {
+		getServer().getLogger().info("Loaded!");
 	}
-
+	
 }
