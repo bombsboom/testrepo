@@ -8,6 +8,7 @@ public class testmain extends JavaPlugin{
 	public void onEnable() {
 		getServer().getLogger().info("Loaded!");
 		getServer().getLogger().info("git push");
+		getServer().getLogger().info("bla bla");
 	}
 	
 }
