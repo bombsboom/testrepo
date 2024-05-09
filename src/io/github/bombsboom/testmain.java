@@ -7,7 +7,8 @@ public class testmain extends JavaPlugin{
 	@Override
 	public void onEnable() {
 		getServer().getLogger().info("ive made many changes");
-		
+		getServer().getLogger().info("override!");
+		getServer().getLogger().info("merging");
 	}
 	
 }
