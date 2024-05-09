@@ -6,8 +6,7 @@ public class testmain extends JavaPlugin{
 
 	@Override
 	public void onEnable() {
-		getServer().getLogger().info("Loaded!");
-		getServer().getLogger().info("git push");
+		getServer().getLogger().info("override!");
 	}
 	
 }
