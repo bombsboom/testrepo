@@ -8,6 +8,7 @@ public class testmain extends JavaPlugin{
 	public void onEnable() {
 		getServer().getLogger().info("override!");
 		getServer().getLogger().info("merging");
+		getServer().getLogger().info("very meeergeww!");
 	}
 	
 }
