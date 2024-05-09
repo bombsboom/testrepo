@@ -6,7 +6,8 @@ public class testmain extends JavaPlugin{
 
 	@Override
 	public void onEnable() {
-		getServer().getLogger().info("very meeergeww!");
+		getServer().getLogger().info("ive made many changes");
+		
 	}
 	
 }
